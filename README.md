@@ -4,7 +4,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![PySide6](https://img.shields.io/badge/GUI-PySide6-green?logo=qt&logoColor=white)
 ![Hardware](https://img.shields.io/badge/Hardware-Modbus%20%7C%20Propar%20%7C%20DAQ-orange)
-![Status](https://img.shields.io/badge/Status-Deployed-success)
 
 ## 📝 Présentation
 
