@@ -47,15 +47,3 @@ Le logiciel repose sur un modèle de conception asynchrone pensé pour la stabil
 * Python 3.10 ou supérieur
 * Pilotes matériels spécifiques (ex: NI-DAQmx si utilisation d'une carte National Instruments)
 
-### Installation
-```bash
-# Cloner le dépôt
-git clone [https://github.com/ton-nom-utilisateur/POLARIS.git](https://github.com/ton-nom-utilisateur/POLARIS.git)
-cd POLARIS
-
-# Créer un environnement virtuel (recommandé)
-python -m venv venv
-source venv/bin/activate  # Sur Windows : venv\Scripts\activate
-
-# Installer les dépendances
-pip install -r requirements.txt
