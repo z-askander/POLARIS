@@ -12,7 +12,7 @@ POLARIS est une application de supervision et de régulation d'instruments de la
 
 POLARIS pilote en même temps des régulateurs de débit **Bronkhorst**, un bain thermostaté **Julabo**, un capteur transmetteur **Sauermann** (carte NI-DAQ) et un analyseur de poluant **Airmovoc** . Elle régule l'humidité par **PID**, trace les mesures en temps réel et les enregistre en **CSV**.
 
-![Vue d'ensemble de POLARIS](docs/images/dashboard.png)
+![Vue d'ensemble de POLARIS](images/dashboard.png)
 
 ## Bibliothèques
 
@@ -58,7 +58,7 @@ La logique est dans `POLARIS.py` :
 | `DashboardController` | Vue de synthèse |
 | `CsvManager` | Enregistrement des données |
 
-![POLARIS.ui dans Qt Designer](docs/images/qt_designer.png)
+![POLARIS.ui dans Qt Designer](images/qt_designer.png)
 
 ## Protocoles de communication
 
@@ -85,19 +85,19 @@ flowchart LR
 - **Démarrage sans à-coup** (*bumpless transfer*) : le PID repart de la position actuelle de la valve.
 - Gains Kp, Ki, Kd, consigne et période réglables dans l'onglet PID.
 
-![Onglet PID](docs/images/onglet_pid.png)
+![Onglet PID](images/onglet_pid.png)
 
 ## Enregistrement CSV
 
 Un fichier `acq_polaris_AAAA-MM-JJ_HH-MM.csv` regroupe tous les instruments : **une ligne par bloc d'acquisition**, avec la moyenne des mesures de chaque instrument sur le bloc. Format compatible Excel (séparateur `;`, virgule décimale), écriture ligne par ligne.
 
-![Fichier CSV](docs/images/csv_excel.png)
+![Fichier CSV](exemples/acq_polaris_exemple.csv)
 
 ## Graphiques pyqtgraph
 
 Courbes temps réel sur chaque onglet : axes de temps, double axe Y, curseur de lecture, échelles fixes ou automatiques, fenêtre glissante, et allègement de l'affichage sur les longues séries.
 
-![Graphiques temps réel](docs/images/graphes_temps_reel.png)
+![Graphiques temps réel](images/graphes_temps_reel.png)
 
 ## Installation
 
