@@ -58,7 +58,7 @@ La logique est dans `POLARIS.py` :
 | `DashboardController` | Vue de synthèse |
 | `CsvManager` | Enregistrement des données |
 
-![POLARIS.ui dans Qt Designer](images/qt_designer.PNG)
+![POLARIS.ui dans Qt Designer](images/qt_designer.png)
 
 ## Protocoles de communication
 
