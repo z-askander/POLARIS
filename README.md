@@ -91,7 +91,7 @@ flowchart LR
 
 Un fichier `acq_polaris_AAAA-MM-JJ_HH-MM.csv` regroupe tous les instruments : **une ligne par bloc d'acquisition**, avec la moyenne des mesures de chaque instrument sur le bloc. Format compatible Excel (séparateur `;`, virgule décimale), écriture ligne par ligne.
 
-![Fichier CSV](exemples/acq_polaris_exemple.csv)
+![Fichier CSV](examples/acq_polaris_exemple.csv)
 
 ## Graphiques pyqtgraph
 
